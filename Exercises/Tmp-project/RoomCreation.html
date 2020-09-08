@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Creacion de salas</title>
+</head>
+
+<body>
+    <header>
+        <h1>Create room</h1>
+        <h2>In order to create a new lobby please fill the following form</h2>
+
+        <img src="./img/logo.png" width="100" height="100" class="loginLogo" alt="loginLogo" />
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"> <i class="material-icons">view_headline</i> </label>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Create new Room</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="button-back-content">
+        <div class="button-back">
+
+            <figure>
+                <img src="https://image.freepik.com/free-icon/arrow-left-thick_318-8506.jpg" width="30" height="30"
+                    alt="button back">
+            </figure>
+
+        </div>
+    </div>
+        <main class="main-content">
+            <form action="#">
+
+                <label for="tittle-room">Tittle:</label>
+                <input type="text" name="tittle-room" id="tittle-room" placeholder="Enter the room name">
+
+                <label for="time">Time:</label>
+                <input type="time" name="time" id="time">
+
+                <label for="date">Date:</label>
+                <input type="date" name="date" id="time-date">
+
+                <label for="expiration-date">Expiration date:</label>
+                <input type="datetime" name="expiration-date" id="expiration-date">
+
+                <input type="submit" value="CREATE">
+
+            </form>
+        </main>
+    </div>
+    <footer class="entitites-logos">
+        <figure class="logos">
+            <img src="https://th.bing.com/th/id/OIP.HZtI3dXD5E72_4koauGTiAHaKH?pid=Api&rs=1" width="50" height="60"
+                alt="uca logo">
+            <img src="https://pmief.org/-/media/images/main-images/pmief_main_image.png" width="60" alt="60"
+                alt="PMIef logo">
+        </figure>
+    </footer>
+
+</body>
+
+</html>
