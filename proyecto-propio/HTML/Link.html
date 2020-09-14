@@ -4,32 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/_style.css" />
     <title>Link</title>
 </head>
 
 <body>
 
-    <header>
-        <a href="#"><img src="img/back.png" alt="This is the back img"></a>
+    <header class="header">
+        <a href="#" class="back-btn">
+            <img src="../img/back.png" class="img-btn" alt="This is the back img">
+        </a>
+
     </header>
 
-    <div id="table">
-
-        <div class="table-col">
-            <div class="table-col-header">
-                <h3>Enjoy the game</h3>
-            </div>
-
-            <div class="table-col-features">
-                <input type="text" placeholder="Enter Link" />
-            </div>
-
-            <div class="table-col-view">
-                <a href="#">JOIN</a>
-            </div>
+    <main id="main-section">
+        <div class="message">
+                <h1 class="main-text enjoy-game">Enjoy the game</h1>
         </div>
-    </div>
+        <div class="link">
+            <input type="text" placeholder="Enter Link" />
+            <button class="main-btn join-btn">
+                JOIN
+            </button>
+        </div>
+    </main>
 
 
 </body>

@@ -1,182 +1,91 @@
 body {
-    margin: 0;
-    font-family: sans-serif;
-    padding: 0;
-    background: url(../img/bg.jpg) no-repeat center top;
+    background: coral url(../img/bg.jpg) no-repeat center top;
     background-size: cover;
-    font-family: sans-serif;
-    height: 100vh;
-    box-sizing: border-box;
 }
 
-/* ESTILO DE MENU HORIZONTAL*/
-
-#roomsH {
-    width: 99.80%;
-    background: #184ad4;
-    border-right: 1px solid #fff;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-}
-
-#btn-menu {
-    display: none;
-}
-
-#roomsH label {
-    display: block;
-    width: 30px;
-    height: 30px;
-    padding: 10px;
-    border-right: 1px solid #fff;
-}
-
-#roomsH label:hover {
-    cursor: pointer;
-    background: rgba(0, 0, 0, 0.3);
-}
-
-.menu {
-    position: absolute;
-    background: #184ad4;
-    width: 20%;
-    margin-left: -70%;
-    transition: all 1s;
-}
-
-.menu ul {
-    margin: 0;
-    list-style: none;
-    padding: 0;
+.header {
+    height: 10vh;
     display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.back-btn {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #2e2e2e;
+    border-radius: 150px;
+    position: absolute;
+    top: 10px;
+    background-color: #e0e4ef;
+}
+
+.img-btn {
+    height: 40px;
+    width: 40px;
+}
+
+#main-section {
+    height: 40vh;
+    display: flex;
+    align-items: center;
     flex-direction: column;
-}
-
-.menu li {
-    border-right: 1px solid #fff;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-    text-align: center;
-    flex-grow: 1;
-}
-
-.menu li:hover {
-    background: rgba(0, 0, 0, 0.3);
-}
-
-.menu li a {
-    display: block;
-    padding: 15px 20px;
-    color: #fff;
-    text-decoration: none;
-}
-
-#btn-menu:checked~.menu {
-    margin-left: 0%;
-}
-
-.table-users {
     position: relative;
-    margin: auto;
 }
 
-/* estilo de todos los botones */
+.message {
+    background-color: #424242;
+    height: 140px;
+    width: 800px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
 
-/* ESTILO DE TABLAS */
-
-h1 {
+.message .main-text {
     color: #e0e4ef;
     text-align: center;
-    font-size: 3.75em;
+    letter-spacing: 2px;
 }
 
-table {
-    align-content: center;
-    color: #e0e4ef;
-    border-collapse: collapse;
-    width: 85%;
-    margin: 0 auto;
-    font-size: 1.25em;
-}
-
-th {
-    background-color: #2e2e2e;
+.message .enjoy-game {
+    padding-bottom: 10px;
+    font-size: 3em;
     text-align: center;
-    color: inherit;
-    height: 3em;
-    border-bottom: 1px #e0e4ef solid;
-    padding-top: 10px;
-}
-
-td {
-    background-color: #1c1c1c;
     text-align: center;
-    color: inherit;
-    height: 3.75em;
 }
 
-tr:last-child td:first-child {
-    border-bottom-left-radius: 10px;
-}
-
-tr:last-child td:last-child {
-    border-bottom-right-radius: 10px;
-}
-
-.choose {
+.link {
+    height: 170px;
+    width: 800px;
+    display: flex;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
     background-color: #2e2e2e;
-    align-content: center;
-    margin: auto;
-    width: 85%;
-    height: 2em;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
 }
 
-.room-name {
-    background-color: #2e2e2e;
-    border: 1px solid #e0e4ef;
-    border-radius: 15px;
-    position: absolute;
+input[type="text"] {
+    position: relative;
+    top: 30%;
     left: 10%;
-    top: 4%;
-    text-align: center;
-    font-size: 1em;
-    color: #e0e4ef;
-    padding: 2px;
+    height: 30px;
+    width: 490px;
+    padding: 10px;
+    color: #424242;
+    background-color: #e0e4ef;
+    font-size: 1.5em;
 }
 
-/* FIN DE ESTILO DE TABLAS */
-
-/* ESTILO DE BOTON REGRESAR */
-
-.button-back {
-    width: 45px;
-    height: 45px;
-    position: relative;
-    border-radius: 50px;
-    top: 10%;
-}
-
-/* FIN DE ESTILO DE BOTON REGRESAR */
-
-/* BARRA DE HOME Y ENTRAR A UNA NUEVA MESA*/
-
-button {
-    display: inline-block;
-    text-align: center;
-    padding: 0.875em 1em;
-    color: #e0e4ef;
+.main-btn {
+    height: 54px;
+    width: 85px;
     background-color: #184ad4;
-    border-radius: 10px;
+    color: #e0e4ef;
+    border-radius: 5px;
+    border: 1px solid #e0e4ef;
 }
 
-
-/* POSICON DEL FOOTER */
-
-footer {
-    position: absolute;
-    top: 90%;
+.join-btn {
+    position: relative;
+    top: 30%;
+    left: 15%;
 }
-
-/* FIN DEL FOOTER */
