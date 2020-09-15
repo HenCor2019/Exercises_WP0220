@@ -12,3 +12,16 @@
   position: relative;
   top: 10px;
 }
+
+.display-3 {
+  background-color: #2e2e2e;
+  color: #e0e4ef;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.join-link {
+  background-color: #424242;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
