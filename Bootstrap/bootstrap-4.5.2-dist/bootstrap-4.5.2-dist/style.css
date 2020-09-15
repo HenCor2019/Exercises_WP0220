@@ -1,11 +1,12 @@
+body {
+  background: url(../img/bg.jpg) no-repeat center top;
+  background-size: cover;
+}
+
 .card-body {
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   margin-top: 20px;
-}
-
-.container {
-  top: 30px;
 }
 
 .card-img {
@@ -25,3 +26,20 @@
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
+
+.table-head {background-color: #424242;}
+
+.table-body {background-color: #2e2e2e;}
+
+.table {color: #e0e4ef;}
+
+.table-head tr th:first-child{border-top-left-radius: 10px; }
+
+.table-head tr th:last-child{border-top-right-radius: 10px; }
+
+.table-body tr:last-child th:first-child 
+{border-bottom-left-radius: 10px;}
+
+.table-body tr:last-child td:last-child
+{border-bottom-right-radius: 10px; }
+
