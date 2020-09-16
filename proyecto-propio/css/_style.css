@@ -33,14 +33,16 @@ body {
     flex-direction: column;
     position: relative;
     padding: 10% 0;
+    background-color: blueviolet;
 }
 
 .message {
     background-color: #424242;
     height: 140px;
     width: 800px;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom: 1px solid #e0e4ef;
 }
 
 .message .main-text {
@@ -51,7 +53,7 @@ body {
 
 .message .enjoy-game {
     padding-bottom: 10px;
-    font-size: 3em;
+    font-size: 3.5em;
     text-align: center;
     text-align: center;
 }
@@ -60,8 +62,8 @@ body {
     height: 170px;
     width: 800px;
     display: flex;
-    border-bottom-left-radius: 14px;
-    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
     background-color: #2e2e2e;
 }
 
@@ -69,21 +71,22 @@ body {
     position: relative;
     top: 30%;
     left: 10%;
-    height: 30px;
+    height: 45px;
     width: 490px;
     padding: 10px;
     color: #424242;
     background-color: #e0e4ef;
-    font-size: 1.5em;
+    font-size: 2.0em;
 }
 
 .main-btn {
-    height: 54px;
-    width: 85px;
+    height: 68px;
+    width: 100px;
     background-color: #184ad4;
     color: #e0e4ef;
-    border-radius: 5px;
+    border-radius: 15px;
     border: 1px solid #e0e4ef;
+    font-size: 1.3em;
 }
 
 .join-btn {
@@ -104,4 +107,73 @@ body {
     align-content: flex-start;
     height: 60px;
     width: 60px;
+}
+
+/* GAME TABLE */
+
+.game-table {
+    background-color: #184ad4;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 100px;
+    width: 200px;
+    border-radius: 25px;
+}
+
+.game-table h1 {
+    text-align: center;
+    color: #e0e4ef;
+    font-size: 2.5em;
+}
+
+.main-section {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-basis: 5%;
+}
+
+.main-section .users {
+    background-color: #424242;
+    height: 50%;
+    width: 50%;
+    border: 1px solid wheat;
+    border-radius: 20px;
+    flex-basis: 25%;
+}
+
+img[class*="AvatarUser"] {
+    position: relative;
+    height: 100px;
+    width: 80px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.user-name {
+    text-align: center;
+    font-size: 2em;
+    color: #e0e4ef;
+}
+
+.waiting {
+    height: 20vh;
+    display: flex;
+    position: relative;
+}
+
+.waiting-message {
+    position: relative;
+    left: 50%;
+    height: 60px;
+    width: 180px;
+    transform: translate(-50%);
+    text-align: center ;
+    font-size: 2em;
+    background-color: crimson;
+    color: #e0e4ef;
+    padding-top: 10px;
+    border-radius: 20px;
 }
