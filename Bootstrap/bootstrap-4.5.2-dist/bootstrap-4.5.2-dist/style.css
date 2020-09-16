@@ -29,11 +29,6 @@ body {
   background-color: #e0e4ef;
   color: #2e2e2e;
 }
-.card-body {
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
-  margin-top: 20px;
-}
 
 .card-img {
   position: relative;
@@ -68,3 +63,4 @@ body {
 
 .table-body tr:last-child td:last-child
 {border-bottom-right-radius: 10px; }
+
