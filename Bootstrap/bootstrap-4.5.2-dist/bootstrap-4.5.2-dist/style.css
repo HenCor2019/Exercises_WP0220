@@ -1,7 +1,12 @@
 body {
+  /*
   background: url(../img/bg.jpg) no-repeat center top;
-  background-size: cover;
+  background-size: cover;*/
+  
+  background-color: White;
 }
+
+.header { max-height: 40vh };
 
 .card-body {
   border-top-left-radius: 40px;
@@ -14,7 +19,7 @@ body {
   top: 10px;
 }
 
-.display-3 {
+.join-text {
   background-color: #2e2e2e;
   color: #e0e4ef;
   border-top-left-radius: 20px;
@@ -42,4 +47,3 @@ body {
 
 .table-body tr:last-child td:last-child
 {border-bottom-right-radius: 10px; }
-
