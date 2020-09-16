@@ -6,8 +6,29 @@ body {
   background-color: White;
 }
 
-.header { max-height: 40vh };
+.navbar {
+  z-index:1;
+  background-color: #184ad4;
+}
 
+.nav-link i {
+  color: #e0e4ef;
+  height: 5%;
+  width: 5%;
+}
+.nav-link:hover { 
+  padding-left: 2vw;
+  background-color: #e0e4ef;
+}
+
+.nav-link i:hover {
+  color: #184ad4;
+}
+.dropdown-item {color : #e0e4ef}
+.dropdown-item:hover {
+  background-color: #e0e4ef;
+  color: #2e2e2e;
+}
 .card-body {
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
