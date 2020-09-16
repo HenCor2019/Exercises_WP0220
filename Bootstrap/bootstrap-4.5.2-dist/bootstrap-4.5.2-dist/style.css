@@ -1,0 +1,70 @@
+body {
+  /*
+  background: url(../img/bg.jpg) no-repeat center top;
+  background-size: cover;*/
+  
+  background-color: White;
+}
+
+.navbar {
+  z-index:1;
+  background-color: #184ad4;
+}
+
+.nav-link i {
+  color: #e0e4ef;
+  height: 5%;
+  width: 5%;
+}
+.nav-link:hover { 
+  padding-left: 2vw;
+  background-color: #e0e4ef;
+}
+
+.nav-link i:hover {
+  color: #184ad4;
+}
+.dropdown-item {color : #e0e4ef}
+.dropdown-item:hover {
+  background-color: #e0e4ef;
+  color: #2e2e2e;
+}
+.card-body {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin-top: 20px;
+}
+
+.card-img {
+  position: relative;
+  top: 10px;
+}
+
+.join-text {
+  background-color: #2e2e2e;
+  color: #e0e4ef;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.join-link {
+  background-color: #424242;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.table-head {background-color: #424242;}
+
+.table-body {background-color: #2e2e2e;}
+
+.table {color: #e0e4ef;}
+
+.table-head tr th:first-child{border-top-left-radius: 10px; }
+
+.table-head tr th:last-child{border-top-right-radius: 10px; }
+
+.table-body tr:last-child th:first-child 
+{border-bottom-left-radius: 10px;}
+
+.table-body tr:last-child td:last-child
+{border-bottom-right-radius: 10px; }
