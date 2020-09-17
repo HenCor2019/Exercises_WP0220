@@ -30,17 +30,19 @@ body {
   color: #2e2e2e;
 }
 
+
+
 article {
-  border: 2px solid #184ad4;
-  border-radius: 3px;
+  border-radius: 6px;
   max-width: 240px;
 }
+
+
 /* END NAVBAR */
 
 /*CARD STYLE*/
-.card-body {
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
+.card-body,.card-img {
+border: 1px solid #2e2e2e;
 }
 
 
