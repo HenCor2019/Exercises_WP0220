@@ -112,3 +112,13 @@ border: 1px solid #2e2e2e;
   border-top-right-radius: 10px;
 }
 
+/* DISEÑO DE CREACION DE SALAS */
+
+.create-room input, .configurate-room input, .create-room select, .configurate-room select{
+  color: #a4a4a4;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-radius: 0; 
+  background-color: transparent !important;
+}
