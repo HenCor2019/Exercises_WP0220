@@ -50,6 +50,10 @@ border: 1px solid #2e2e2e;
 
 /* JOIN BY LINK STYLE */
 
+.main-section {
+  max-width: 50vw;
+
+}
 .join-text {
   background-color: #2e2e2e;
   color: #e0e4ef;
