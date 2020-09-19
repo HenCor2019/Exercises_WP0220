@@ -114,7 +114,9 @@ border: 1px solid #2e2e2e;
 
 /* DISEÑO DE CREACION DE SALAS */
 
-.create-room input, .configurate-room input, .create-room select, .configurate-room select{
+.room-parameters { background-color: #2e2e2e;}
+.room-extras { background-color: #424242;}
+.create-room input, .extra-config-room input, .form-select{
   color: #a4a4a4;
   border-left: 0;
   border-top: 0;
@@ -122,3 +124,5 @@ border: 1px solid #2e2e2e;
   border-radius: 0; 
   background-color: transparent !important;
 }
+.room-creation { height: 85vh;}
+.game-bonus-heading, .gamne-score-heading {align-content: center;} 

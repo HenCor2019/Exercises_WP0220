@@ -1,110 +1,199 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="" content="">
+    <meta name="" content="" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./style.css" />
 
     <title>Create room</title>
+  </head>
 
-</head>
+  <body>
+    <div>
+      <p>holaaa</p>
+    </div>
+    <main class="room-creation d-flex w-100">
+      <form class="w-100">
+        <div class="form-row">
+          <div class="col-8 room-parameters">
+            <div class="create-room text-light pl-3 pb-3 w-75">
+              <div>
+                <h1>Room parameters</h1>
+                <p>please fill the following form</p>
+              </div>
 
-<body>
-
-    <main class="container d-flex bg-dark w-100 ">
-        <form class="w-100">
-            <div class="form-row">
-                <div class="col-8">
-                    <div class="create-room text-light pl-3 pb-3 w-75">
-                        <div class="align-items-start">
-                            <h1>Room parameters</h1>
-                            <p>please fill the following form</p>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="Title">Title</label>
-                            <input type="text" class="form-control" id="Title" placeholder="Room #1">
-                        </div>
-                        <div class="form-group">
-                            <label for="date">Date and time of execution</label>
-                            <label for="time"></label>
-                        </div>
-                        <div class="form-row">
-                            <div class="col">
-                                <input type="date" class="form-control" id="date" placeholder="dd/mm/yy">
-                            </div>
-                            <div class="col">
-                                <input type="time" class="form-control" id="time" placeholder="--;--;--">
-                            </div>
-                        </div>
-                        <div class="form-group pt-2">
-                            <label for="Expiration">Expiration date</label>
-                            <input type="datetime-local" class="form-control" id="Expiration" placeholder="dd/mm/yy--;--;--">
-                        </div>
-                        <div class="form-group">
-                            <label for="time-available">Time available for the game</label>
-                            <select name="time-available" id="time-available" class="form-control">
-                                <option value="10" >10</option>
-                                <option value="15" >15</option>
-                                <option value="20" >20</option>
-                                <option value="25" >25</option>
-                                <option value="30" >30</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="player-number" >Number of player</label>
-                            <select name="player-number" id="player-number" class="form-control">
-                                <option value="3">3 players</option>
-                                <option value="4">4 player</option>
-                                <option value="5">5 player</option>
-                            </select>
-                        </div>
-                    </div>
+              <div class="form-group">
+                <label for="Title">Title</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Title"
+                  placeholder="Room #1"
+                />
+              </div>
+              <div class="form-group">
+                <label for="date">Date and time of execution</label>
+                <label for="time"></label>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="date"
+                    placeholder="dd/mm/yy"
+                  />
                 </div>
-                <div class="col-4">
-                    <div class="configurate-room w-75 text-light">
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
+                <div class="col">
+                  <input
+                    type="time"
+                    class="form-control"
+                    id="time"
+                    placeholder="--;--;--"
+                  />
                 </div>
+              </div>
+              <div class="form-group pt-2">
+                <label for="Expiration">Expiration date</label>
+                <input
+                  type="datetime-local"
+                  class="form-control"
+                  id="Expiration"
+                  placeholder="dd/mm/yy--;--;--"
+                />
+              </div>
+              <div class="form-group">
+                <label for="time-available">Time available for the game</label>
+                <select
+                  name="time-available"
+                  id="time-available"
+                  class="form-control form-select"
+                >
+                  <option value="10">10</option>
+                  <option value="15">15</option>
+                  <option value="20">20</option>
+                  <option value="25">25</option>
+                  <option value="30">30</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="player-number">Number of player</label>
+                <select
+                  name="player-number"
+                  id="player-number"
+                  class="form-control form-select"
+                >
+                  <option value="3">3 players</option>
+                  <option value="4">4 player</option>
+                  <option value="5">5 player</option>
+                </select>
+              </div>
             </div>
-        </form>
-    </main>
-    <footer class="footer" style="height: 15vh;">
-        <div class="d-flex flex-row justify-content-start align-items-center ">
-            <img src="https://th.bing.com/th/id/OIP.HZtI3dXD5E72_4koauGTiAHaKH?pid=Api&rs=1" class="rounded p-2"
-                alt="uca logo" style="width: 50px; height: 50px;">
-            <img src="https://pmief.org/-/media/images/main-im
-ages/pmief_main_image.png" class="rounded p-2" alt="PMIef logo" style="width: 60px; height: 50px;">
+          </div>
+
+          <div class="col-4 room-extras">
+            <div class="extra-config-room text-light px-3">
+              <div class="scores align-content-center">
+                <h2 class="game-score-heading text-light">Game scores</h2>
+              </div>
+
+              <div class="form-group">
+                <label for="rectangles"> Rectangles</label>
+                <select
+                  name="rectangles"
+                  id="rectangles"
+                  class="form-control form-select"
+                >
+                  <option value="2">2</option>
+                  <option value="4">4</option>
+                  <option value="6">6</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="squares">Squares</label>
+                <select
+                  name="squares"
+                  id="squares"
+                  class="form-control form-select"
+                >
+                  <option value="2">2</option>
+                  <option value="4">4</option>
+                  <option value="6">6</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="circles">Circles</label>
+                <select
+                  name="circles"
+                  id="circles"
+                  class="form-control form-select"
+                >
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="5">5</option>
+                </select>
+              </div>
+
+              <div class="bonus">
+                <h2 class="game-bonus-heading">Bonus</h2>
+              </div>
+              <div class="form-group">
+                <label for="person">People</label>
+                <select
+                  name="person"
+                  id="person"
+                  class="form-control form-select"
+                >
+                  <option value="2">2</option>
+                  <option value="4">4</option>
+                  <option value="6">6</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="shield">Shield</label>
+                <select
+                  name="shield"
+                  id="shield"
+                  class="form-control form-select"
+                >
+                  <option value="2">2</option>
+                  <option value="4">4</option>
+                  <option value="6">6</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="flags">Flags</label>
+                <select
+                  name="flags"
+                  id="flags"
+                  class="form-control form-select"
+                >
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="5">5</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
         </div>
-    </footer>
+      </form>
+    </main>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/bootstrap.min.js"></script>
-</body>
-
+  </body>
 </html>
