@@ -22,7 +22,7 @@ body {
 }
 
 .dropdown-item {
-  color: #e0e4ef
+  color: #e0e4ef;
 }
 
 .dropdown-item:hover {
@@ -30,21 +30,18 @@ body {
   color: #2e2e2e;
 }
 
-
-
 article {
   border-radius: 6px;
   max-width: 240px;
 }
 
-
 /* END NAVBAR */
 
 /*CARD STYLE*/
-.card-body,.card-img {
-border: 1px solid #2e2e2e;
+.card-body,
+.card-img {
+  border: 1px solid #2e2e2e;
 }
-
 
 /* END CARD STYLE */
 
@@ -52,7 +49,6 @@ border: 1px solid #2e2e2e;
 
 .main-section {
   max-width: 50vw;
-
 }
 .join-text {
   background-color: #2e2e2e;
@@ -112,17 +108,25 @@ border: 1px solid #2e2e2e;
   border-top-right-radius: 10px;
 }
 
-/* DISEÑO DE CREACION DE SALAS */
+/* CREACION DE UNA SALA */
 
-.room-parameters { background-color: #2e2e2e;}
-.room-extras { background-color: #424242;}
-.create-room input, .extra-config-room input, .form-select{
-  color: #a4a4a4;
-  border-left: 0;
-  border-top: 0;
-  border-right: 0;
-  border-radius: 0; 
-  background-color: transparent !important;
+.room-parameters {
+  background-color: #2e2e2e;
 }
-.room-creation { height: 85vh;}
-.game-bonus-heading, .gamne-score-heading {align-content: center;} 
+.table-parameters {
+  background-color: #424242;
+}
+
+.room-creation input,
+.room-creation select {
+  color: #848484;
+  background-color: transparent !important;
+  border: 0;
+  border-bottom: 2px solid #e0e4ef;
+}
+
+.btn-cancel {
+  background-color: #fe2e2e;
+  color: #e0e4ef;
+  color: #e0e4ef;
+}
