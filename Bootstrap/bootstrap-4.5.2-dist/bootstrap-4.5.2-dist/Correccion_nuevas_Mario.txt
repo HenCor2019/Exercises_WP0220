@@ -1,0 +1,79 @@
+Generales : Por lo general, se le ponen encabezados a las imagenes
+ejemplo : 
+ilustracion 5 : Capacitancia con dielectrico.
+
+valores como 10x10^5 dejalos como ecuacion, se mira mas formal
+
+
+
+pagina 3 : 
+"capacitancia separacion" <- no se entiende mucho, seria mejor un
+capacitancia en funcion de la separacion en placas plano-paralelas
+
+pagina 4 : 
+Si le pusiste un nombre a el grafico anterior, igual a este, podria ser
+capacitancia en funcion del area en placas plano-paralelas
+
+
+pagina 6: 
+
+Parrafo 1:
+Deberias probar con 
+"Antes de dar una conclusion de como un dielectrico afecta al sistema, se procedio a calcular la capacitancia con la ausencia de este.""
+
+Lo de "ya con lo valores" quiza cambialo por 
+"Se consideran valores fijos para el area y la sepacion, de 12m y 3 respectivamente."
+
+nota : el 12 y 3 son ejemplos
+
+Lo de "el resultado es de" , podrias poner 
+"La capacitancia que se obtuvo como resultado fue de..."
+
+Segundo parrafo : 
+linea 1 y 2 : 
+Se escucha algo informal, podrias probar con
+"De la misma forma que el caso anterior se procede a calcular con ayuda del simulador la capacitancia con el dielectrico presente. Se colocan en el simulador los mismos... "
+
+Pagina 7 :
+Parrafo 1:
+repetis mucho "presente", podrias poner
+linea 2 y 3
+"En el primer caso donde no se considero al dielectrico...'
+
+linea 3 y 4 
+"Donde ya se contaba con el dielectrico"
+siento que al decir contaba ya se sabe que esta presente, no se xd
+
+Parrafo 2:
+La formula quo ocupas, deberias especificar para que caso, esa formula es para un sistema de placas plano-paralelas
+
+linea 4: "En nuestro caso dos la constante" no se entiende a la primera
+podrias poner 
+"En el segundo caso, la constante dielectrica presente fue de 4.7". Sustituyendo el valor en la formula presentada, se obtiene :
+
+La pone**
+"
+
+Pagina 8:
+
+pregunta 4
+parrafo 1:
+Linea 1 :
+Lo de "concluir lo que concluyo en el literal anterior" 
+se podria colocar 
+"A partir de la formula de capacitancia y los datos que proporciona el simulador se obtienen la formulas F1, F2 y F3 para los materiales de papel, vidrio y teflon respectivamente. En las formulas se puede..."
+
+Pagina 9 :
+Lo mismo, trata de poner con formula el -1 y un error que note y lo tengo yo, la Ctotal se conoce como Cequivalente jaja
+
+Algo que preguntare, no se si entendi mal, es que los valores de C1,C2 y C3 que tomes al inicio, ocuparas para todos los casos, pero aja, pregunta
+
+Pagina 12:
+pregunta 3:
+"constante dielectrica del dielectrico"
+se repite, mejor pone
+"la constante dielectrica del material"
+
+pregunta 5:
+"daban igual" , mejor considera
+"Se llego a la misma respuesta"
