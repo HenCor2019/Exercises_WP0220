@@ -1,9 +1,9 @@
-test1 = 'Hola mundo'
-test2 = 'Contando estas palabras'
+const test1 = 'Hola mundo'
+const test2 = 'Contando estas palabras'
 
 const counterWords = (word,print) => {
 	let counter = {}
-	transformWord = word.replace(/ /g,"").toLowerCase()
+	const transformWord = word.replace(/ /g,"").toLowerCase()
 	for(let letter of transformWord){
 		counter[letter] ? counter[letter] += 1 : counter[letter] = 1
 
@@ -26,10 +26,10 @@ console.log('----------------')
 
 // ----------- Second form -------------- //
 
-test3 = "lalalale lolo lacalacacalena"
-limitTest3Array = test3.replace(/ /g,'').toLowerCase().split('')
+const test3 = "lalalale lolo lacalacacalena"
+const limitTest3Array = test3.replace(/ /g,'').toLowerCase().split('')
 
-counter = {}
+let counter = {}
 
 limitTest3Array.map( letter => counter[letter] ? counter[letter]++ : counter[letter] = 1 )
 
